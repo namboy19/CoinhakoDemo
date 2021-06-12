@@ -12,7 +12,7 @@ import retrofit2.http.Query
 
 open class HomeRemoteDataSource(
     private val homeApi: HomeApi,
-    private val refreshIntervalMs: Long = 3000
+    private val refreshIntervalMs: Long = 30000
 ) {
     open fun getCoins(currency: String) = flow {
         while (true) {
