@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Your AppTheme or other themes/styles here -->
+
+    <!-- The launcher theme. It sets the main window background to the launch_screen drawable -->
+    <style name="Theme.CoinhakoDemo.Launcher">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+
+</resources>
